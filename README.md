@@ -37,3 +37,7 @@ export SERPER_API=<SERP_API> && export BROWSERLESS_API=<BROWSERLESS_API> && expo
 
 ## Demo
 
+
+https://github.com/practice404/L-WAVE/assets/74960567/ab98159b-c66c-46a2-883e-cda04b8a548e
+
+
