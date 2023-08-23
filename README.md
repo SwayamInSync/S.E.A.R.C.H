@@ -13,10 +13,6 @@
 
 L-WAVE is an innovative project that seamlessly integrates the power of a cutting-edge Llama2 model with the vast resources of the web. With the ability to access unknown information through intelligent Google searches, L-WAVE empowers users with instant knowledge retrieval. Not only does L-WAVE provide text-based answers, but it also boasts an impressive image rendering feature that brings visual context to your inquiries. Harnessing the strengths of both the Llama model and the web, L-WAVE is your ultimate companion for uncovering insights and visualizing information. Experience the future of information access with L-WAVE.
 
-## Demo
-
-https://github.com/practice404/L-WAVE/assets/74960567/ab98159b-c66c-46a2-883e-cda04b8a548e
-
 ## Installation
 
 To install this project, follow these steps:
@@ -38,5 +34,7 @@ Run the following command inside terminal
 ```bash
 export SERPER_API=<SERP_API> && export BROWSERLESS_API=<BROWSERLESS_API> && export URL_ENDPOINT=<MODEL_ENDPOINT> && gradio app.py
 ```
+## Demo
 
+https://github.com/practice404/L-WAVE/assets/74960567/ab98159b-c66c-46a2-883e-cda04b8a548e
 
