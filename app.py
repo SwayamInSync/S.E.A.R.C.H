@@ -24,7 +24,7 @@ def search_the_web(query):
     # response = requests.get(url)
     # return response.content
     params = {
-        "api_key": "d5c1632f211f688eed5274bbfebd58bb3962994704b651a732040f7b0f7cebee",
+        "api_key": os.environ.get("SERPER_API"),
         "engine": "google",
         "q": query,
         "location": "Delhi, India",
