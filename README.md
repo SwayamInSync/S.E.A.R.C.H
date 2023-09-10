@@ -9,6 +9,9 @@
 * [Usage](#usage)
 * [Demo](#Demo)
 
+## Updates:
+* **10/09/2023** Updated [LLaMA2_13B_Hosting.ipynb](https://github.com/practice404/L-WAVE/blob/main/LLaMA2_13B_Hosting.ipynb) to support the GGUF format, since GGML is not supported by llama.cpp anymore.
+
 ## Introduction
 
 L-WAVE is an innovative project that seamlessly integrates the power of a cutting-edge Llama2 model with the vast resources of the web. With the ability to access unknown information through intelligent Google searches, L-WAVE empowers users with instant knowledge retrieval. Not only does L-WAVE provide text-based answers, but it also boasts an impressive image rendering feature that brings visual context to your inquiries. Harnessing the strengths of both the Llama model and the web, L-WAVE is your ultimate companion for uncovering insights and visualizing information. Experience the future of information access with L-WAVE.
