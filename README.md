@@ -1,5 +1,6 @@
 # L-WAVE: LlaMA Web Access and Visual Enhancement
 <h2>INFO: 🚨 This repo is currently being updated with the latest features, see issues for more info </h2>
+
 ![](https://raw.githubusercontent.com/practice404/L-WAVE/main/assets/banner.png)
 
 ## Table of Contents
