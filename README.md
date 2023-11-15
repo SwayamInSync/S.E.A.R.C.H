@@ -1,17 +1,17 @@
-# L-WAVE: LlaMA Web Access and Visual Enhancement
+# S.E.A.R.C.H : Systematic Engine for Analyzed Retrieval and Contextual Handling
+
 <h2>INFO: 🚨 This repo is currently being updated with the latest features, see issues for more info </h2>
 
 ![](https://raw.githubusercontent.com/practice404/L-WAVE/main/assets/banner.png)
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Demo](#Demo)
-
-## Updates:
-* **10/09/2023** Updated [LLaMA2_13B_Hosting.ipynb](https://github.com/practice404/L-WAVE/blob/main/LLaMA2_13B_Hosting.ipynb) to support the GGUF format, since GGML is not supported by llama.cpp anymore.
+- [S.E.A.R.C.H : Systematic Engine for Analyzed Retrieval and Contextual Handling](#search--systematic-engine-for-analyzed-retrieval-and-contextual-handling)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Demo](#demo)
 
 ## Introduction
 
@@ -19,26 +19,10 @@ L-WAVE is an innovative project that seamlessly integrates the power of a cuttin
 
 ## Installation
 
-To install this project, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the dependencies.
-3. Get your API keys from 
-   1. [SerpAI](https://serpapi.com/)
-   2. [Browserless](https://www.browserless.io/)
-   3. AuthToken from [ngrok](https://ngrok.com/)
-
-4. Put [ngrok](https://ngrok.com/) AuthToken in the [LLaMA2_13B_Hosting](https://github.com/practice404/L-WAVE/blob/main/LLaMA2_13B_Hosting.ipynb)  notebook
-5. Upload and execute [LLaMA2_13B_Hosting](https://github.com/practice404/L-WAVE/blob/main/LLaMA2_13B_Hosting.ipynb)  notebook [Google Colab](https://colab.research.google.com/) and obtain the `MODEL_ENDPOINT`
-
 ## Usage
 
 Run the following command inside terminal
 
-```bash
-export SERPER_API=<SERP_API> && export BROWSERLESS_API=<BROWSERLESS_API> && export URL_ENDPOINT=<MODEL_ENDPOINT> && gradio app.py
-```
 ## Demo
 
 https://github.com/practice404/L-WAVE/assets/74960567/ab98159b-c66c-46a2-883e-cda04b8a548e
-

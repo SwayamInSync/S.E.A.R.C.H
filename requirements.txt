@@ -1,0 +1,12 @@
+llama-index
+transformers
+accelerate
+bitsandbytes
+llama-hub
+sentence-transformers
+gradio==3.45.0
+google-search-results
+ray
+cohere
+spacy
+markdown2
