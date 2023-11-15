@@ -10,3 +10,4 @@ ray
 cohere
 spacy
 markdown2
+langchain
