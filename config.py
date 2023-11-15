@@ -1,18 +1,11 @@
-'''
-1. SERP_API
-2. retriver_top_k
-3. reranker_top_k
-4. node_chunk_size
-5. Cohere API
-'''
-
-from dataclasses import dataclass, field
+from dataclasses import dataclass
+import os
 
 
 @dataclass
 class Config:
-    serp_api = None
-    cohere_api = None
+    serp_api = os.getenv("SERP_API")
+    cohere_api = os.getenv("COHERE_API")
     retriver_top_k = 25
     reranker_top_k = 10
     node_chunk_size = 8000
