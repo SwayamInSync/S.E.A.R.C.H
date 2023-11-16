@@ -14,7 +14,7 @@
 
 ## Introduction
 
-S.E.A.R.C.H (Systematic Engine for Analyzed Retrieval and Contextual Handling) is an advanced, multi-faceted information retrieval system. It integrates a Language Model with internet access for real-time, factual data acquisition, and employs a highly scalable Retrieval Augmented Generation (RAG) framework for efficient vector database processing. The application uniquely supports querying visual data, including images, and enhances reasoning through an embedded code interpreter. An innovative in-house sub-query engine significantly reduces hallucinations, ensuring precise, context-sensitive, and reliable responses
+S.E.A.R.C.H (Systematic Engine for Analyzed Retrieval and Contextual Handling) is an advanced, multi-faceted information retrieval system backed by [Zephyr-7B](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta). It integrates a Language Model with internet access for real-time, factual data acquisition, and employs a highly scalable Retrieval Augmented Generation (RAG) framework for efficient vector database processing. The application uniquely supports querying visual data, including images, and enhances reasoning through an embedded code interpreter. An innovative in-house sub-query engine significantly reduces hallucinations, ensuring precise, context-sensitive, and reliable responses
 
 ## Installation
 
