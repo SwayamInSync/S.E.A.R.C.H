@@ -27,6 +27,7 @@ with gr.Blocks() as demo:
         with gr.Column():
             gr.HTML(
                 "<center><h1> S.E.A.R.C.H : Systematic Engine for Analyzed Retrieval and Contextual Handling </h1></center>")
+            gr.HTML('<img src="https://raw.githubusercontent.com/SwayamInSync/S.E.A.R.C.H/main/assets/banner.png">')
             gr.HTML(desc)
     with gr.Row():
         gr.Text("Pick Extra functionalities for query")
