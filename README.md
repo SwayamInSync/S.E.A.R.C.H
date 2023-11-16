@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-- Here is a [quickstart notebook]() to try it on Google Colab
+- Here is a [quickstart notebook](https://github.com/SwayamInSync/S.E.A.R.C.H/blob/main/quickstart.ipynb) to try it on Google Colab
 
 ### For local machine
 
