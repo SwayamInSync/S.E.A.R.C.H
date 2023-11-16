@@ -57,5 +57,6 @@ If you want to adjust parameters in `config.py`
 ```
 
 ## Demo
+https://github.com/SwayamInSync/S.E.A.R.C.H/assets/74960567/2700db34-8317-4288-a573-76f958bf1c7a
 
-TODO
+
