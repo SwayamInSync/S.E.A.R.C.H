@@ -1,7 +1,5 @@
 # S.E.A.R.C.H : Systematic Engine for Analyzed Retrieval and Contextual Handling
 
-<h2>INFO: 🚨 This repo is currently being updated with the latest features, see issues for more info </h2>
-
 ![](https://raw.githubusercontent.com/practice404/L-WAVE/main/assets/banner.png)
 
 ## Table of Contents
@@ -11,17 +9,41 @@
   - [Introduction](#introduction)
   - [Installation](#installation)
   - [Usage](#usage)
+    - [For local machine](#for-local-machine)
   - [Demo](#demo)
 
 ## Introduction
 
-L-WAVE is an innovative project that seamlessly integrates the power of a cutting-edge Llama2 model with the vast resources of the web. With the ability to access unknown information through intelligent Google searches, L-WAVE empowers users with instant knowledge retrieval. Not only does L-WAVE provide text-based answers, but it also boasts an impressive image rendering feature that brings visual context to your inquiries. Harnessing the strengths of both the Llama model and the web, L-WAVE is your ultimate companion for uncovering insights and visualizing information. Experience the future of information access with L-WAVE.
+S.E.A.R.C.H (Systematic Engine for Analyzed Retrieval and Contextual Handling) is an advanced, multi-faceted information retrieval system. It integrates a Language Model with internet access for real-time, factual data acquisition, and employs a highly scalable Retrieval Augmented Generation (RAG) framework for efficient vector database processing. The application uniquely supports querying visual data, including images, and enhances reasoning through an embedded code interpreter. An innovative in-house sub-query engine significantly reduces hallucinations, ensuring precise, context-sensitive, and reliable responses
 
 ## Installation
 
+1. Install all the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Get API keys from [SerpAPI](https://serpapi.com/) and [Cohere](https://dashboard.cohere.com/)
+
 ## Usage
 
+- Here is a [quickstart notebook]() to try it on Google Colab
+
+### For local machine
+
 Run the following command inside terminal
+
+```bash
+export SERP_API=<SERP API KEY>
+export COHERE_API=<COHERE API KEY>
+```
+
+Run the gradio interface
+
+```bash
+python app.py
+```
 
 ## Demo
 

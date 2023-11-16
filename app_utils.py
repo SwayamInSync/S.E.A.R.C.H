@@ -17,11 +17,11 @@ template = """
             justify-content: center;
         }
         .images-grid img {
-            flex: 1 0 21%; /* Adjusts to roughly 5 images per row at full size */
-            max-width: 100%;
-            height: auto;
-            border-radius: 4px; /* Optional: just for styled corners */
-            object-fit: cover;
+        flex: 1 0 21%; 
+        width: 200px; 
+        height: 150px;
+        border-radius: 4px;
+        object-fit: cover;
         }
         .references {
             margin-top: 20px;
