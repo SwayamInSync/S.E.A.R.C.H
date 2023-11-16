@@ -1,6 +1,6 @@
 # S.E.A.R.C.H : Systematic Engine for Analyzed Retrieval and Contextual Handling
 
-![](https://raw.githubusercontent.com/practice404/L-WAVE/main/assets/banner.png)
+![](assets/banner.png)
 
 ## Table of Contents
 
