@@ -73,5 +73,5 @@ template = """
 
 """
 desc = '''
-<p>Explore the cutting-edge capabilities of our intelligent open-source agent, powered by the Zephyr-7B-beta model. This interactive demo showcases our system's proficiency in processing and analyzing factual information across the web, utilizing advanced techniques like Retriever-Augmented Generation, keyword extraction, and intelligent web page segmentation. Experience firsthand how our tool delivers personalized, accurate, and efficient assistance in real-time.</p>
+<p style="font-size:20px;">Explore the cutting-edge capabilities of our intelligent open-source agent, powered by the Zephyr-7B-beta model. This interactive demo showcases our system's proficiency in processing and analyzing factual information across the web, utilizing advanced techniques like Retriever-Augmented Generation, keyword extraction, and intelligent web page segmentation. Experience firsthand how our tool delivers personalized, accurate, and efficient assistance in real-time.</p>
 '''
