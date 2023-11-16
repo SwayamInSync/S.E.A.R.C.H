@@ -17,11 +17,12 @@ template = """
             justify-content: center;
         }
         .images-grid img {
-        flex: 1 0 21%; 
-        width: 200px; 
-        height: 150px;
+        width: calc(50% - 10px); 
+        height: auto; 
+        object-fit: contain;
+        margin-bottom: 10px;
         border-radius: 4px;
-        object-fit: cover;
+        background-color: #000;
         }
         .references {
             margin-top: 20px;

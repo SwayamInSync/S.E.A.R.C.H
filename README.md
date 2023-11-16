@@ -18,7 +18,12 @@ S.E.A.R.C.H (Systematic Engine for Analyzed Retrieval and Contextual Handling) i
 
 ## Installation
 
-1. Install all the dependencies
+1. Clone repo and install dependencies
+
+```bash
+git clone https://github.com/SwayamInSync/S.E.A.R.C.H.git
+cd S.E.A.R.C.H
+```
 
 ```bash
 pip install -r requirements.txt
@@ -45,6 +50,12 @@ Run the gradio interface
 python app.py
 ```
 
+If you want to adjust parameters in `config.py`
+
+```bash
+!python app.py --retriver_top_k 25 --reranker_top_k 10 --node_chunk_size 8000
+```
+
 ## Demo
 
-https://github.com/practice404/L-WAVE/assets/74960567/ab98159b-c66c-46a2-883e-cda04b8a548e
+TODO
