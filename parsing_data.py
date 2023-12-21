@@ -74,7 +74,7 @@ def chunk_webpage(files):
         g_images = file_row['images']
 
         soup = BeautifulSoup(html_content, 'html.parser')
-        body_content = soup.body
+        body_content = soup.body if soup.body else soup
 
         for section in body_content.find_all(is_valid_section):
             text = get_text_from_section(section)
